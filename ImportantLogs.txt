@@ -1,0 +1,9 @@
+***********************steps to add file in folder and uplead it ***********
+1. add the file manualy or create it with command
+2 . git status============== it will show you uncommited files
+3. git add filename =============== it will add the file to staging area
+4.git commit -m "somecomment " file name ====== this will commite the chenge 
+5. git  push -u origin master ======= this will push to the remote server
+
+*******************************to download the remote content to your folder 
+1. git clone https:thee link goes here
