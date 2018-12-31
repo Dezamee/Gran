@@ -22,6 +22,7 @@
     width: 100%;
     height: 4%;
     color: blanchedalmond;
+    flex-direction: column;
 }
 .content-wrapper {
     width: 100%;
@@ -59,7 +60,7 @@
     width: 100%;
     padding: 7px;
 font-family: 'Courier New', Courier, monospace;
-font-size: 100%;
+font-size: -webkit-xxx-large;
 align-items: center;
     justify-content: center;
     
