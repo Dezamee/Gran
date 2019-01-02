@@ -1,12 +1,14 @@
+/* ***********************************************************  entire document ********************************** */
 .doc-wrapper {
     display: flex;
     width: 100%;
-    height: 100%;
+
+    min-height: 100%;
     background-color: ghostwhite;
     flex-direction: column;
 
 }
-
+/* ***********************************************************header******************************************** */
 .header-wrapper {
     display: flex;
     background-color: black;
@@ -20,20 +22,12 @@
     display: flex;
     background-color: black;
     width: 100%;
-    height: 4%;
+    height: 6%;
     color: blanchedalmond;
     flex-direction: column;
 }
-.content-wrapper {
-    width: 100%;
-    height: 74%;
-    background-color: gainsboro;
-}
-.footer-wrapper {
-    background-color: black;
-    width: 100%;
-    height: 10%;
-}
+
+
 .H1 {
     display: flex;
     background-color: floralwhite;
@@ -64,4 +58,138 @@ font-size: -webkit-xxx-large;
 align-items: center;
     justify-content: center;
     
+}
+/* ul {
+    display: flex;
+
+        justify-content: flex-start;
+    
+} */
+a.header-logo {
+    width: 10%;
+    display: flex;
+}
+li.menu-item {
+    display: flex;
+    color: blanchedalmond;
+    /* padding: inherit; */
+    height: max-content;
+}
+.desktop {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-bottom {
+    display: flex;
+    width: 100%;
+
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.header-bottom__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+a.NotSelected {
+    color: aliceblue;
+}
+a {
+    color: aliceblue;
+}
+ul.MItem {
+    display: flex;
+
+        justify-content: space-evenly;
+    width: 90%;
+    padding: 0;
+}
+.right-nav {
+    display: flex;
+width: 30%;
+justify-content: space-around;
+}
+nav.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+ul.header-nav__first {
+    display: flex;
+    height: min-content;
+    
+    width: 100%;
+}
+ul.header-top__links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+
+}
+li.social-link {
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+   
+
+}
+
+/* ******************************************************content rapper**********************  */
+/* any content that need more space on home paga  can  be inclided above or below container rapper */
+.content-wrapper {
+    width: 100%;
+ 
+    min-height: 74%;
+    background-color: gainsboro;
+}
+
+/* ****************************************************footer rapper*********************** */
+.footer-wrapper {
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.footer-top__wrapper {
+    color: aliceblue;
+}
+.footer-bottom__wrapper {
+    display: flex;
+    width: 100%;
+}
+.footer-bottom {
+    display: flex;
+}
+span.copy-right {
+    color: aliceblue;
+    width: auto;
+}
+.footer-siteinfo {
+    display: flex;
+}
+.sinfo {
+    display: flex;
+    
+    height: max-content;
+}
+.footer-siteinfo {
+    display: flex;
+    
+    width: 25%;
+}
+.footer-copyright {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+ul.sinf-container {
+    display: flex;
+    justify-content: space-around;
+   
+    width: 100%;
 }
